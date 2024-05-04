@@ -6,7 +6,7 @@
 
 name "thermo"
 
-    mov ax, 100h     ;We take a data segment with aax
+    mov ax, 100h     ;We take a data segment with ax
     mov ds, ax
     
     mov ah,1         ;We take an input from user for determine fahrenit or celsius
